@@ -1,5 +1,31 @@
 {
-    "trips": [
-        
-    ]
+  "trips": [
+    {
+      "busHouseId": "Hai Yen",
+      "startTime": "2024-04-10T06:15",
+      "seats": "1",
+      "price": "10000",
+      "fromStation": "Hà Nội",
+      "toStation": "Hải Dương",
+      "id": 1
+    },
+    {
+      "busHouseId": "Anh Huy",
+      "startTime": "2024-04-18T08:44",
+      "seats": "2",
+      "price": "2222222",
+      "fromStation": "Hà Nội",
+      "toStation": "Hải Phòng",
+      "id": 2
+    },
+    {
+      "busHouseId": "Hai Yen",
+      "startTime": "2024-04-19T08:58",
+      "seats": "4",
+      "price": "400000",
+      "fromStation": "Bắc Giang",
+      "toStation": "Hải Phòng",
+      "id": 3
+    }
+  ]
 }

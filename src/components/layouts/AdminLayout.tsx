@@ -5,12 +5,14 @@ const AdminLayout = () => {
         <header>
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <div className="text-center sm:text-left">
-                        <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">Welcome Back, Barry!</h1>
+                    <div className="flex text-center sm:text-left">
+                        <img className="" src="/Rectangle 28.png" alt="" />
 
-                        <p className="mt-1.5 text-sm text-gray-500">Let's write a new blog post! 🎉</p>
+                        <h1 className="text-3xl">Vexere</h1>
                     </div>
-
+                    <div>
+                        <input className="border-2 rounded-md w-80 h-10 " type="text" placeholder="search"/>
+                    </div>
                     <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
                         <button
                             className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-gray-200 px-5 py-3 text-gray-500 transition hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring"
@@ -70,7 +72,7 @@ const AdminLayout = () => {
 
                         <li>
                             <Link
-                                to="/admin/trips"
+                                to="/admin"
                                 className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                             >
                                 Chuyến xe
@@ -87,23 +89,7 @@ const AdminLayout = () => {
                     </ul>
                 </div>
 
-                <div className="sticky inset-x-0 bottom-0 border-t border-gray-100">
-                    <a href="#" className="flex items-center gap-2 bg-white p-4 hover:bg-gray-50">
-                        <img
-                            alt=""
-                            src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                            className="size-10 rounded-full object-cover"
-                        />
-
-                        <div>
-                            <p className="text-xs">
-                                <strong className="block font-medium">Eric Frusciante</strong>
-
-                                <span> eric@frusciante.com </span>
-                            </p>
-                        </div>
-                    </a>
-                </div>
+                
             </div>
             <div className="grow">
                 {/* <h1 className="text-2xl">Dashboard</h1> */}
